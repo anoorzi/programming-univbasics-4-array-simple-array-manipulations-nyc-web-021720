@@ -23,9 +23,6 @@ def shift_with_args(array)
 end
 
 def using_concat(array,array2)
-  while array2.length < 0 do
-    array.push(array2.pop)
-
-  end
+  array.concat(array2)
 
 end
